@@ -1,6 +1,6 @@
 # PresentlyYou v2
 
-Welkom bij **PresentlyYou v2**, een Expo-project dat is opgezet met `create-expo-app`. Dit project is ontworpen om [doel van de applicatie] en biedt een gebruiksvriendelijke ervaring voor het ontwikkelen van mobiele applicaties.
+Welkom bij **PresentlyYou v2**, een Expo-project dat is opgezet met `create-expo-app`. Dit project is ontworpen tijdens mijn persoonlijk project en biedt een gebruiksvriendelijke ervaring voor het ontwikkelen van mobiele applicaties.
 
 ## Inhoud
 
