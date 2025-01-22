@@ -16,6 +16,10 @@ Welkom bij **PresentlyYou v2**, een Expo-project dat is opgezet met `create-expo
 
 Dit is een Expo-project dat gebruik maakt van file-based routing. Met behulp van de Expo-omgeving kun je eenvoudig ontwikkelen, testen en implementeren op Android, iOS en het web. Het project biedt een gestroomlijnd proces om aan de slag te gaan en later eenvoudig te resetten voor een nieuwe start.
 
+Dit project maakt gebruik van een apart onderdeel voor het inlog- en registratieproces. Bekijk de module hier:
+
+👉 [Registreren-app](https://github.com/BoHofland/registreren-app/tree/main/registreren-app)
+
 ## Functies
 
 - **Cross-platform ontwikkeling**: Ondersteuning voor Android, iOS en het web.
