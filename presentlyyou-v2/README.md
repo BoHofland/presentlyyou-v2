@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+# PresentlyYou v2
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welkom bij **PresentlyYou v2**, een Expo-project dat is opgezet met `create-expo-app`. Dit project is ontworpen om [doel van de applicatie] en biedt een gebruiksvriendelijke ervaring voor het ontwikkelen van mobiele applicaties.
 
-## Get started
+## Inhoud
 
-1. Install dependencies
+- [Overzicht](#overzicht)
+- [Functies](#functies)
+- [Installatie](#installatie)
+- [Gebruik](#gebruik)
+- [Projectstructuur](#projectstructuur)
+- [Extra Commandos](#extra-commandos)
+
+
+## Overzicht
+
+Dit is een Expo-project dat gebruik maakt van file-based routing. Met behulp van de Expo-omgeving kun je eenvoudig ontwikkelen, testen en implementeren op Android, iOS en het web. Het project biedt een gestroomlijnd proces om aan de slag te gaan en later eenvoudig te resetten voor een nieuwe start.
+
+## Functies
+
+- **Cross-platform ontwikkeling**: Ondersteuning voor Android, iOS en het web.
+- **File-based routing**: Makkelijk te beheren navigatiestructuur.
+- **Snelle herstart**: Mogelijkheid om het project terug te zetten naar een vers begin met één commando.
+- **Compatibel met Expo Go**: Ideaal voor snelle sandbox-testen.
+
+## Installatie
+
+Volg de onderstaande stappen om het project lokaal op te zetten:
+
+1. **Kloon de repository:**
 
    ```bash
-   npm install
-   ```
+   git clone https://github.com/BoHofland/presentlyyou-v2.git
+Navigeer naar de projectmap:
 
-2. Start the app
+bash
+Kopiëren
+Bewerken
+cd presentlyyou-v2
+Installeer de benodigde pakketten:
 
-   ```bash
-    npx expo start
-   ```
+bash
+Kopiëren
+Bewerken
+npm install
+Gebruik
+Start de ontwikkelserver met het volgende commando:
 
-In the output, you'll find options to open the app in a
+bash
+Kopiëren
+Bewerken
+npx expo start
+Dit opent een Expo-cli-interface waar je kunt kiezen om de app te openen in een:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Development build
+Android emulator
+iOS simulator
+Expo Go, een beperkte sandbox om app-ontwikkeling met Expo te proberen.
+Projectstructuur
+De belangrijkste mappen en bestanden in dit project zijn:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+app/: Hier bevinden zich de bestanden voor de app-ontwikkeling. Het project gebruikt file-based routing.
+app-example/: Een voorbeeldstructuur die kan worden gebruikt als referentie.
+package.json: Bevat de lijst van afhankelijkheden en scripts.
+Extra Commandos
+Project resetten
+Als je een frisse start nodig hebt, kun je het project resetten door:
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
+bash
+Kopiëren
+Bewerken
 npm run reset-project
-```
+Dit zal de startercode verplaatsen naar de map app-example en een nieuwe, lege map app creëren waar je aan een nieuwe versie kunt werken.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Meer leren
+Om meer te leren over de ontwikkeling met Expo, bekijk:
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo Documentatie: Leer de basisprincipes of verdiep je in geavanceerde onderwerpen met de gidsen.
+Learn Expo Tutorial: Volg een stapsgewijze handleiding om een project te maken dat werkt op Android, iOS en het web.
